@@ -10,11 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/EnderKingJ/Observable.git"
   },
+  "dependencies": {},
+  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EnderKingJ/Observable/issues"
   },
-  "homepage": "https://github.com/EnderKingJ/Observable#readme"
+  "homepage": "https://github.com/EnderKingJ/Observable#readme",
+  "author": "EnderKingJ <jmbryzek@gmail.com>",
+  "license": "ISC"
 }
