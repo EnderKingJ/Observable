@@ -3,9 +3,8 @@
 *   Observable
 *
 ***************************************************************/
-var observes = {
+var observes = {}
 
-}
 var Observable;
 (Observable = function() {
 }).prototype = {
@@ -45,4 +44,4 @@ var Observable;
     }
 };
 
-exports = Observable
+module.exports = Observable
