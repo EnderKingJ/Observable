@@ -1,6 +1,6 @@
-## Observable Event Listeners
+# **Observable Event Listeners**
 
-### What is Observable?
+## What is Observable?
 
 **Observable is a useful node.js plugin to add event listeners that can be called upon later.**
 
@@ -29,8 +29,19 @@ Firing Events:
 observable.fire('your event', {message: 'hello'})
 ```
 ```console
-> {message: 'hello'}
+Output: {message: 'hello'}
 ```
+or
+```js
 observable.fireEvent('your event', {message: 'hello world'})
-observable.send('your event', {message: 'hello'})
+```
+```console
+Output: {message: 'hello world'}
+```
+or
+```js
+observable.send('your event', {message: 'Hello World!'})
+```
+```console
+Output: {message: 'Hello World!'}
 ```
